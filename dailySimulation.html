@@ -20,12 +20,12 @@
 
       // Add at least 6 personal or creative activities with timing
       const activities = [
-        { time: 0, message: "Beat the sun up!" },
-        { time: 2000, message: "Having brekkie!" },
-        { time: 4000, message: "Lock in on studies!" },
-        { time: 6000, message: "Break for lunch!" },
-        { time: 8000, message: "Walk the dogs!" },
-        { time: 10000, message: "Dinner time!" },
+        { time: 0, message: "Beat the sun up! ☀️" },
+        { time: 2000, message: "Having brekkie! 🌯" },
+        { time: 4000, message: "Lock in on studies! 📚" },
+        { time: 6000, message: "Break for lunch! 🥙" },
+        { time: 8000, message: "Walk the dogs! 🐕" },
+        { time: 10000, message: "Dinner time! 🍕" },
       ];
 
       // Set timeouts for each activity
@@ -34,6 +34,14 @@
           output.innerHTML += `<p>${activity.message}</p>`;
         }, activity.time);
       });
+
+      // Add one surprise or twist (random time, mood, or emoji)
+      setTimeout(() => {
+        const surprises = ["🎊", "🎉", "🍾"];
+        const randomSurprise =
+          surprises[Math.floor(Math.random() * surprises.length)];
+        output.innerHTML += `<hr>You worked so hard.<br>You deserve a special emoji:<br>${randomSurprise}`;
+      }, 12000);
     </script>
   </body>
 </html>
