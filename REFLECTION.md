@@ -2,20 +2,20 @@
 
 ## What was your approach to designing the schedule?
 
-Explain how you chose your activities and what made them personal or interesting.
+I designed the schedule around activities that reflect a typical day, including waking up, food, studying, and exercise.
 
 ## What was one challenge or unexpected behavior you encountered?
 
-Describe anything surprising that happened when you tested the timing.
+One challenge was timing of the activities. I had to adjust the delays to make them just long enough not to bore the user.
 
 ## What does this assignment teach you about async code?
 
-Compare this to a regular script that runs top to bottom without delays.
+This assignment taught me the importance of async coding which allows you to run code at specific time in the future instead of in sequence.
 
 ## What creative element did you add?
 
-Did you add randomization, surprise content, a twist, or other enhancements?
+I added a surprise element at the end of the simulation by showing a random emoji to contratulate the user for their patience.
 
 ## How does this project simulate or differ from real-world schedules?
 
-Explain how well your simulation represents how time works in real life.
+This project simulates how tasks are supposed to work in real-world but lacks the unpredictability of real life.
