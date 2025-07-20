@@ -27,6 +27,13 @@
         { time: 8000, message: "Walk the dogs!" },
         { time: 10000, message: "Dinner time!" },
       ];
+
+      // Set timeouts for each activity
+      activities.forEach((activity) => {
+        setTimeout(() => {
+          output.innerHTML += `<p>${activity.message}</p>`;
+        }, activity.time);
+      });
     </script>
   </body>
 </html>
